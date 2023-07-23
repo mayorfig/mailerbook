@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container banner bg-red">
+      <!-- <div class="banner"> -->
+      <p class="banner-prompt">
+        🔔 Get up to 70% off your any book purchase 🔔 Ends in
+      </p>
+
+      <p class="banner-timer">
+        <span>12</span>
+        :
+        <span>12</span>
+        :
+        <span>12</span>
+      </p>
+      <!-- </div> -->
+    </div>
+
+    <div class="nav container">
+      <div class="nav-logo">
+        <img class="nav-logo-img" src="./img/logo.svg" alt="" />
+        <h1 class="nav-logo-header">mailerbook</h1>
+      </div>
+
+      <ul class="nav-links">
+        <li><img class="nav-close" src="/icons/close.svg" alt="" /></li>
+
+        <li>
+          <button class="nav-auto-event-cart">
+            My Cart
+            <img src="./icons/bag.svg" alt="" />
+          </button>
+        </li>
+
+        <li>
+          <a class="nav-auto-event-auth" href="" @click.prevent="">Login/Sign Up</a>
+        </li>
+
+        <li>Categories <img src="./icons/arrow-down.svg" alt="" /></li>
+
+        <li>Best Selling <span>HOT</span></li>
+
+        <li>New Releases</li>
+
+        <li>Top Deals</li>
+      </ul>
+
+      <div class="nav-event">
+        <a class="nav-event-auth" href="" @click.prevent="">Login/Sign Up</a>
+
+        <button class="nav-event-cart">
+          My Cart
+          <img src="./icons/bag.svg" alt="" />
+        </button>
+
+        <img class="nav-event-search" src="./icons/search.svg" alt="" />
+
+        <img class="burgar" src="./icons/burgar.svg" alt="" />
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="header">
+        <div class="header-detail">
+          <h2 class="header-detail-title">
+            Find any business book at the best price
+          </h2>
+
+          <p class="header-detail-content">
+            Dive into the top business books tailored exclusively for You! 📚 by
+            the team of professional at MailerSend under $10
+          </p>
+
+          <div class="header-detail-input">
+            <img src="/icons/search.svg" alt="" />
+
+            <input type="text" placeholder="What book are you looking for..." />
+          </div>
+
+          <p class="header-detail-terms">T & C apply*</p>
+        </div>
+
+        <div class="header-pic">
+          <img src="/img/main-img.svg" alt="" />
+
+          <div class="header-pic-promo">
+            <p class="timer">
+              <span>12</span>
+              :
+              <span>12</span>
+              :
+              <span>12</span>
+            </p>
+
+            <p class="offer">LIMITED TIME OFFER</p>
+
+            <div class="discount">
+              <span>60%</span>
+
+              <span>off</span>
+            </div>
+          </div>
+
+          <div class="header-pic-see">
+            <p>See The Book</p>
+            <img src="/icons/arrow-right.svg" alt="" />
+          </div>
+
+          <div class="selector">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="deals container">
+      <div class="deals-header">
+        <h3>Today deals just for you</h3>
+        <a href="">View all</a>
+      </div>
+
+      <p class="deals-details">Get the best business book deals just for you</p>
+
+      <div class="deals-books">
+        <div class="deals-books--book">
+          <div class="part-1">
+            <img src="/img/deal-1.png" alt="" />
+          </div>
+
+          <div class="part-2">
+            <p class="name">Influence: The Psychology of Perusasion</p>
+
+            <div class="price">
+              <p>$0.99</p>
+
+              <p>$4.99</p>
+
+              <p>-70%</p>
+            </div>
+
+            <div class="liner"></div>
+
+            <p class="fast">🔥 Selling fast</p>
+
+            <div class="rate">
+              <img src="/icons/star-yellow.svg" alt="" />
+              <img src="/icons/star-yellow.svg" alt="" />
+              <img src="/icons/star-yellow.svg" alt="" />
+              <img src="/icons/star-yellow.svg" alt="" />
+              <img src="/icons/star.svg" alt="" />
+              <p>(2,465 reviews)</p>
+            </div>
+
+            <div class="btn">
+              <button>See Details</button>
+              <button><img src="/icons/bag.svg" alt="" /></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="deals-books--book">
+          <div class="part-1">
+            <img src="/img/deal-2.png" alt="" />
+          </div>
+
+          <div class="part-2">
+            <p class="name">
+              This Is Marketing: You Can't Be Seen Until You Learn to See
+            </p>
+
+            <div class="price">
+              <p>$0.99</p>
+
+              <p>$4.99</p>
+
+              <p>-70%</p>
+            </div>
+
+            <div class="liner"></div>
+
+            <p class="fast">6 books left</p>
+
+            <div class="rate">
+              <img src="/icons/star-yellow.svg" alt="" />
+              <img src="/icons/star-yellow.svg" alt="" />
+              <img src="/icons/star-yellow.svg" alt="" />
+              <img src="/icons/star-yellow.svg" alt="" />
+              <img src="/icons/star.svg" alt="" />
+              <p>(2,465 reviews)</p>
+            </div>
+
+            <div class="btn">
+              <button>See Details</button>
+              <button><img src="/icons/bag.svg" alt="" /></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="deals-books--book">
+          <div class="part-1">
+            <img src="/img/deal-3.png" alt="" />
+          </div>
+
+          <div class="part-2">
+            <p class="name">Blue Ocean Strategy</p>
+
+            <div class="price">
+              <p>$0.99</p>
+
+              <p>$4.99</p>
+
+              <p>-70%</p>
+            </div>
+
+            <div class="liner"></div>
+
+            <p class="fast">6 books left</p>
+
+            <div class="rate">
+              <img src="/icons/star-yellow.svg" alt="" />
+              <img src="/icons/star-yellow.svg" alt="" />
+              <img src="/icons/star-yellow.svg" alt="" />
+              <img src="/icons/star-yellow.svg" alt="" />
+              <img src="/icons/star.svg" alt="" />
+              <p>(2,465 reviews)</p>
+            </div>
+
+            <div class="btn">
+              <button>See Details</button>
+              <button><img src="/icons/bag.svg" alt="" /></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="deals-books--book">
+          <div class="part-1">
+            <img src="/img/deal-4.png" alt="" />
+          </div>
+
+          <div class="part-2">
+            <p class="name">
+              The First 90 Days: Proven Strategies for Getting Up to Speed
+              Faster and Smarter, Updated and Expanded
+            </p>
+
+            <div class="price">
+              <p>$0.99</p>
+
+              <p>$4.99</p>
+
+              <p>-70%</p>
+            </div>
+
+            <div class="liner"></div>
+
+            <p class="fast">🔥 Selling fast</p>
+
+            <div class="rate">
+              <img src="/icons/star-yellow.svg" alt="" />
+              <img src="/icons/star-yellow.svg" alt="" />
+              <img src="/icons/star-yellow.svg" alt="" />
+              <img src="/icons/star-yellow.svg" alt="" />
+              <img src="/icons/star.svg" alt="" />
+              <p>(2,465 reviews)</p>
+            </div>
+
+            <div class="btn">
+              <button>See Details</button>
+              <button><img src="/icons/bag.svg" alt="" /></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container bg-white">
+      <div class="rare">
+        <div class="rare-img">
+          <img src="/img/rare.png" alt="" />
+        </div>
+
+        <div class="rare-content">
+          <p class="rare-content-header">RARE BOOKS🎉</p>
+
+          <p class="rare-content-main">Discover rare book collections</p>
+
+          <p class="rare-content-details">
+            MailerSend integrates quickly into your tech stack, scales with your
+            sendings, and ensures that your emails get delivered.
+          </p>
+
+          <button class="rare-content-btn">See rare books</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container bg-white explore">
+      <h4 class="explore-header">Explore by categories</h4>
+
+      <p class="explore-content">
+        These collections contain hundreds of books related to business
+        management
+      </p>
+
+      <div class="explore-categories">
+        <div>
+          <img src="/icons/accounting.svg" alt="" />
+          <p>Accounting</p>
+        </div>
+        <div>
+          <img src="/icons/management.svg" alt="" />
+          <p>Management</p>
+        </div>
+        <div>
+          <img src="/icons/marketing.svg" alt="" />
+          <p>Marketing</p>
+        </div>
+        <div>
+          <img src="/icons/real-estate.svg" alt="" />
+          <p>Real Estate</p>
+        </div>
+        <div>
+          <img src="/icons/economics.svg" alt="" />
+          <p>Economics</p>
+        </div>
+        <div>
+          <img src="/icons/all.svg" alt="" />
+          <p>
+            All <br />
+            categories
+          </p>
+        </div>
+      </div>
+
+      <div class="explore-deals-books">
+        <div class="explore-deals-books--book">
+          <div class="part-1">
+            <img src="/img/deal-1.png" alt="" />
+          </div>
+
+          <div class="part-2">
+            <p class="name">Influence: The Psychology of Perusasion</p>
+
+            <div class="price">
+              <p>$0.99</p>
+
+              <p>$4.99</p>
+
+              <p>-70%</p>
+            </div>
+
+            <div class="liner"></div>
+
+            <p class="fast">🔥 Selling fast</p>
+
+            <div class="rate">
+              <img src="/icons/star-yellow.svg" alt="" v-for="i in 4" />
+              <img src="/icons/star.svg" alt="" />
+              <p>(2,465 reviews)</p>
+            </div>
+
+            <div class="btn">
+              <button>Add to Cart <img src="/icons/bag.svg" alt="" /></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="explore-deals-books--book">
+          <div class="part-1">
+            <img src="/img/deal-1.png" alt="" />
+          </div>
+
+          <div class="part-2">
+            <p class="name">Influence: The Psychology of Perusasion</p>
+
+            <div class="price">
+              <p>$0.99</p>
+
+              <p>$4.99</p>
+
+              <p>-70%</p>
+            </div>
+
+            <div class="liner"></div>
+
+            <p class="fast">🔥 Selling fast</p>
+
+            <div class="rate">
+              <img src="/icons/star-yellow.svg" alt="" v-for="i in 4" />
+              <img src="/icons/star.svg" alt="" />
+              <p>(2,465 reviews)</p>
+            </div>
+
+            <div class="btn">
+              <button>Add to Cart <img src="/icons/bag.svg" alt="" /></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="explore-deals-books--book">
+          <div class="part-1">
+            <img src="/img/deal-1.png" alt="" />
+          </div>
+
+          <div class="part-2">
+            <p class="name">Influence: The Psychology of Perusasion</p>
+
+            <div class="price">
+              <p>$0.99</p>
+
+              <p>$4.99</p>
+
+              <p>-70%</p>
+            </div>
+
+            <div class="liner"></div>
+
+            <p class="fast">🔥 Selling fast</p>
+
+            <div class="rate">
+              <img src="/icons/star-yellow.svg" alt="" v-for="i in 4" />
+              <img src="/icons/star.svg" alt="" />
+              <p>(2,465 reviews)</p>
+            </div>
+
+            <div class="btn">
+              <button>Add to Cart <img src="/icons/bag.svg" alt="" /></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="explore-deals-books--book">
+          <div class="part-1">
+            <img src="/img/deal-1.png" alt="" />
+          </div>
+
+          <div class="part-2">
+            <p class="name">Influence: The Psychology of Perusasion</p>
+
+            <div class="price">
+              <p>$0.99</p>
+
+              <p>$4.99</p>
+
+              <p>-70%</p>
+            </div>
+
+            <div class="liner"></div>
+
+            <p class="fast">🔥 Selling fast</p>
+
+            <div class="rate">
+              <img src="/icons/star-yellow.svg" alt="" v-for="i in 4" />
+              <img src="/icons/star.svg" alt="" />
+              <p>(2,465 reviews)</p>
+            </div>
+
+            <div class="btn">
+              <button>Add to Cart <img src="/icons/bag.svg" alt="" /></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cheap">
+      <div>
+        <h4 class="cheap-header">Cheap business books under $10</h4>
+
+        <p>
+          If you love deals on books, this is the place for you. We're offering
+          millions of cheap books priced under $10 with free shipping.
+        </p>
+
+        <button>Buy Books</button>
+      </div>
+    </div>
+
+    <footer class="container">
+      <div class="footer">
+        <ul class="footer-subs">
+          <li>Product</li>
+          <li>Browse Collections</li>
+          <li>Advance Search</li>
+          <li>My Account</li>
+          <li>My Orders</li>
+          <li>View Cart</li>
+        </ul>
+
+        <ul class="footer-subs">
+          <li>Resources</li>
+          <li>API reference</li>
+          <!-- <li>Advance Search</li> -->
+          <li>Status</li>
+          <li>Integrations</li>
+          <li>Knowledge base</li>
+          <li>Brand assets</li>
+          <li>Free templates</li>
+          <li>Blog</li>
+        </ul>
+
+        <ul class="footer-subs">
+          <li>Company</li>
+          <li>About us</li>
+          <li>Write book for us</li>
+          <li>Start Selling</li>
+          <li>Refer a seller</li>
+          <li>Jobs</li>
+          <li>Contact us</li>
+          <li>Affiliate program</li>
+        </ul>
+        <div class="footer-contact">
+          <h5>Let’s keep in touch</h5>
+          <p class="sign-up">
+            Sign up for our monthly newsletter and book updates.
+          </p>
+
+          <div class="subscribe">
+            <input type="text" />
+            <button>Subscribe</button>
+          </div>
+          <p class="more-details">
+            For more details, review our Privacy Policy.
+          </p>
+
+          <div class="footer-socials">
+            <img src="/icons/youtube.svg" alt="" />
+            <img src="/icons/linkedIn.svg" alt="" />
+            <img src="/icons/twitter.svg" alt="" />
+            <img src="/icons/facebook.svg" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="lower-footer">
+        <p class="copyright">© 2020 - 2023 MailerSend.</p>
+
+        <div class="terms">
+          <p>Terms of Service</p>
+          <p>Report abuse</p>
+          <p>Cookies Settings</p>
+        </div>
+      </div>
+
+      <img src="./img/last-flex.png" class="footer-img" alt="" />
+    </footer>
+    <script>
+      const burgar = document.querySelector(".burgar");
+      const navLinks = document.querySelector(".nav-links");
+      const navClose = document.querySelector(".nav-close");
+      burgar.addEventListener("click", () => {
+        navLinks.classList.toggle("show");
+      });
+
+      navClose.addEventListener("click", () => {
+        navLinks.classList.toggle("show");
+      });
+    </script>
+  </body>
+</html>
